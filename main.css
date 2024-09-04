@@ -217,6 +217,7 @@ nav a:hover {
 .linksExt img:hover {
 	border-radius: 40px;
 	border: 2px dotted blueviolet;
+	text-shadow: 2px 2px 5px #blueviolet, -2px -2px 5px #blueviolet;
 }
 
 
