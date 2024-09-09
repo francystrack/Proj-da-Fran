@@ -217,7 +217,50 @@ nav a:hover {
 .linksExt img:hover {
 	border-radius: 40px;
 	border: 2px dotted blueviolet;
-	text-shadow: 2px 2px 5px #blueviolet, -2px -2px 5px #blueviolet;
+}
+
+
+/* newsletter */
+
+#formulario {
+	display: block;
+	margin-top: 30px;
+	font-weight: bold;
+}
+
+#formulario p {
+	margin-bottom: 10px;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	transition-duration: 0.2s;
+}
+
+#formulario p:hover {
+	text-shadow: 0 0 5px blueviolet;
+}
+
+.newsletter {
+	margin: 5px auto;
+}
+
+input {
+	border: 1px solid blueviolet;
+	box-shadow: 0 0 1px blueviolet;
+}
+
+input:hover {
+	box-shadow: 0 0 5px blueviolet;
+}
+
+#botao input {
+	margin-top: 5px;
+	background-color: blueviolet;
+	font-family: nerkoOne;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	color: #fff;
+	width: 200px;
+	height: 30px;
 }
 
 
