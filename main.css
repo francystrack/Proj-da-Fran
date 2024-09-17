@@ -66,7 +66,7 @@ nav li img {
 	padding-left: 10px;
 }
 
-#navText {
+.navText {
 	color: #fff;
 	margin: 0;
 	padding: 8px 30px 8px 10px;
@@ -79,7 +79,7 @@ nav a {
 	color: #fff;
 	text-align: center;
 	padding: 16px 30px;
-	transition-duration: 0.4s;
+	transition-duration: 0.4s;	
 }
 
 nav a:hover {
@@ -90,7 +90,7 @@ nav a:hover {
 
 /* banner (futuro slider) */
 
-#banner img {
+.banner img {
 	width: 100%;
 	height: auto;
 }
@@ -98,8 +98,9 @@ nav a:hover {
 
 /* apresentação */
 
-#quem-somos {
+.quemSomos {
 	margin-bottom: 70px;
+	background-color: #FAF7FA;
 }
 
 .apresentacao {
@@ -122,7 +123,7 @@ nav a:hover {
 
 /* categorias */
 
-#categorias {
+.categorias {
 	background-color: blueviolet;
 	width: 100%;
 	font-size: 1.1em;
@@ -161,14 +162,15 @@ nav a:hover {
 
 /* contato */
 
-#contato {
+.contato {
 	display: block;
 	text-align: center;
 	color: blueviolet;
-	margin-bottom: 70px;
+	padding-bottom: 70px;
+	background-color: #FAF7FA;
 }
 
-#contato a {
+.contato a {
 	color: blueviolet;
 }
 
@@ -222,20 +224,20 @@ nav a:hover {
 
 /* newsletter */
 
-#formulario {
+.formulario {
 	display: block;
 	margin-top: 30px;
 	font-weight: bold;
 }
 
-#formulario p {
+.formulario p {
 	margin-bottom: 10px;
 	font-size: 1.1em;
 	text-transform: uppercase;
 	transition-duration: 0.2s;
 }
 
-#formulario p:hover {
+.formulario p:hover {
 	text-shadow: 0 0 5px blueviolet;
 }
 
@@ -252,7 +254,7 @@ input:hover {
 	box-shadow: 0 0 5px blueviolet;
 }
 
-#botao input {
+.botao input {
 	margin-top: 5px;
 	background-color: blueviolet;
 	font-family: nerkoOne;
@@ -266,7 +268,7 @@ input:hover {
 
 /* rodapé */
 
-#rodape {
+.rodape {
 	display: block;
 	background-color: blueviolet;
 	height: auto;
