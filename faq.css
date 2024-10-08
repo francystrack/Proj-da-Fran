@@ -52,16 +52,3 @@ details p {
     color: blueviolet;
     padding-bottom: 15px;
 }
-
-.indicacao {
-    display: block;
-    box-sizing: border-box;
-    background-color: blueviolet;
-    padding: 30px 0 30px;
-    border-top: 5px dotted #fff;
-    border-bottom: 5px dotted #fff;
-    font-size: 1.3em;
-    text-align: center;
-    color: #fff;
-    font-weight: bold;
-}
